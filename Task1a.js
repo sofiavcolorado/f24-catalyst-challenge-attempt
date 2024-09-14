@@ -23,6 +23,9 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
+    todoList.push("");
+    todoList.push("");
+    todoList.push("");
 }
 
 /**
