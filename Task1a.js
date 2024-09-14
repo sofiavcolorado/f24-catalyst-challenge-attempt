@@ -26,12 +26,12 @@ function addAndPrintTodos() {
     todoList[0] = ["Apply to y/cs!"];
     todoList[1] = ["Pick out my classes"];
     todoList[2] = ["Have dinner with my suite"];
+
     console.log("To Do List:");
 
-    
-
-    
-
+    for (let i = 0; i < todoList.length; i++) {
+        console.log((i+1) + ". " + todoList[i]);
+    }
 };
 
 
