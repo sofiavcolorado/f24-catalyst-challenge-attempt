@@ -25,7 +25,12 @@ function addAndPrintTodos() {
     // YOUR CODE HERE
     todoList.push("Apply to y/cs!", "Pick out my classes", "Have dinner with my suite");
 
-}
+    console.log("To Do List:");
+
+    console.log(`1. ${todoList[0]}  \n2. ${todoList[1]}  \n3. ${todoList[2]}`);
+
+};
+
 
 /**
  * Main is considered the entry point to a procedural program. Within y/cs,
