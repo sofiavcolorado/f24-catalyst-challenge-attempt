@@ -23,11 +23,14 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
-    todoList.push("Apply to y/cs!", "Pick out my classes", "Have dinner with my suite");
-
+    todoList[0] = ["Apply to y/cs!"];
+    todoList[1] = ["Pick out my classes"];
+    todoList[2] = ["Have dinner with my suite"];
     console.log("To Do List:");
 
-    console.log(`1. ${todoList[0]}  \n2. ${todoList[1]}  \n3. ${todoList[2]}`);
+    
+
+    
 
 };
 
