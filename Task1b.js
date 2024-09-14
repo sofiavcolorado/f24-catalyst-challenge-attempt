@@ -22,8 +22,15 @@ function Addtodo(todoString) {
     todoList.push(todoString);
 }
 
-function __todo() {
+function Removetodo(todoString) {
     // YOUR CODE HERE
+    for(let i = 0; i < todoList.length; i++)
+    {
+        if (todoList[i] == todoString)
+        {
+            todoList.splice(i, 1);
+        }
+    }
 }
 
 /**
