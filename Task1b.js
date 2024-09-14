@@ -29,8 +29,10 @@ function Removetodo(todoString) {
         if (todoList[i] == todoString)
         {
             todoList.splice(i, 1);
+            return true;
         }
     }
+    return false;
 }
 
 /**
@@ -40,7 +42,8 @@ function Removetodo(todoString) {
  */
 function mainTask1b() {
     // YOUR CODE HERE (simply call the functions you implemented above)
-    Addtodo()
+    Addtodo();
+    Removetodo();
 }
 
 // This bit of code ensures that a main method exists! If it doesn't, then it throws an error
