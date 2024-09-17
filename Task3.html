@@ -93,15 +93,15 @@
 
         function deleteTodo(index) {
             // YOUR CODE HERE (recycle your work from former tasks)
-            refreshTodoList()
             console.log("Before: " + todoList)
-            // YOUR CODE HERE
             todoList.splice(index, 1);
             console.log("After:" + todoList)
+            refreshTodoList()
         }
 
         function addTodo(todo) {
             // YOUR CODE HERE (recycle your work from former tasks)
+            todoList.push(todoString);
             refreshTodoList()
         }
     </script>
